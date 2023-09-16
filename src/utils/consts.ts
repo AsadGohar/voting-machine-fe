@@ -1,0 +1,23 @@
+export const SIGNUP = "/users/signup";
+export const LOGIN = "/users/login";
+export const GET_ALL_CONSTITUENCIES = "/constituencies";
+export const CREATE_CONSTITUENCIES = "/constituencies";
+export const GET_ALL_CANDIDATES_BY_USER = "/users/candidates";
+export const BECOME_CANDIDATE = "/candidates";
+export const CAST_VOTE = "/voting";
+export const GET_RESULT_BY_CONSTITUENCY = "/voting/constituency";
+export const GET_RESULT_BY_CONSTITUENCY_NAME = "/voting/search";
+export const GET_ALL_RESULTS = "/voting/all";
+export const UPLOAD_USER_PROFILE_PIC = "/users/profile";
+export const GET_ALL_VOTERS = "/admin/voters";
+export const GET_ALL_REQUESTS = "/admin/requests";
+export const APPROVE_CANDIDATE = "/admin/approve";
+export const SEND_INVITE = "/admin/invite";
+export const GET_INVITES = "/invite/user";
+export const ACCEPT_INVITE = "/invite/accept";
+export const CREATE_ELECTION = "/elections";
+export const EDIT_ELECTION = "/elections";
+export const GET_ACTIVE_ELECTION = "/elections/active";
+
+export const DRAWER_WIDTH = 240;
+export const PAGE_SIZE = 10;
